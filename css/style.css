@@ -1,12 +1,21 @@
 :root {
-    --header-color: #555555;
+    --header-color: #2c2c2c ;
+    /* --header-color: #555555; */
+    /* --footer-color: #2c2c2c; */
     --footer-color: #2c2c2c;
     --header-text-color:white;
+    /* --border-color: rgb(33 98 116); */
+    --body-color: rgb(199, 198, 182);
 }
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+}
+body{
+    /* overflow: hidden; */
+    /* background-color: black; */
+    background-color: var(--body-color);
 }
 .wrapper{
     max-width: 1200px;
@@ -25,7 +34,7 @@ header{
     margin: auto;
     background-color: var(--header-color);
      
-    border-bottom: 3px solid black ;
+    border-bottom: 2px solid black ;
     z-index: 10000;
 }
 /* header::after{
@@ -46,8 +55,9 @@ header{
 .logo{
     width: 50px;
     height: 50px;
-    margin: 15px;
-    background-color: var(--header-text-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 196, 0);
     border-radius: 50%;
     position: relative;
 }
@@ -86,8 +96,8 @@ header{
     text-decoration: underline;
 }
 .info{
-    background-color: blueviolet;
-    background: center center / cover no-repeat url("https://coolwallpapers.me/picsup/5086180-abstract-artistic-colors-digital-art-kaleidoscope-pattern-psychedelic.jpg");
+    /* background-color: blueviolet; */
+    /* background: center center / cover no-repeat url("https://3.404content.com/1/D7/85/1343983142020580436/fullsize.jpg"); */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -112,20 +122,39 @@ header{
 .info_h2{
     color: white;
     font-size: 30px;
-    z-index: 100;
+    z-index: 100; 
+}
+.main_contacts{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    z-index: 1000;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    color: white;
+}
+.main_contacts_img{
+    width: 40px;
+    height: 40px;
+    color: var(--header-color);
+    border-radius: 50%;
 }
 footer{
     background-color: var(--footer-color);
     /* padding-left: 50px;
     padding-right: 50px; */
     padding-top: 30px;
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
     border-top: 2px solid black ;
 }
 .footer{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     
     position: relative;
 }
@@ -168,6 +197,27 @@ footer{
     background-color: rgb(255, 80, 138);
     background: center center / cover no-repeat url("https://igorzuevich.com/wp-content/uploads/2015/03/Twitter.png");
 }
-.footer_p{
+.footer_connection{
+    text-decoration: none;
+    /* margin-top: 10px; */
+}
+.footer_connection:first-child{
+    margin-top: 10px;
+}
+.footer_p, .footer_p_end{
+    text-align: center;
     color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.footer_end{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    margin-top: 30px;
+    /* height: 40px; */
+}
+.footer_p_end{
+    color: white;
+    margin-left: 0px;
 }
