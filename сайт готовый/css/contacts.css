@@ -96,7 +96,9 @@ input{
     
 }
 .add-data{
-    border: 1px solid black;
+    /* border: 2px solid red; */
+    /* color: red; */
+    background-color: rgb(189, 165, 165);
 }
 .write-us_form_right{
     /* display: flex;
