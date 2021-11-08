@@ -16,10 +16,11 @@ function validate(){
     let text;
     if(fio==""|| email==""||phone==""){
         if(fio==""){
-            document.querySelector("#fio").classList.add("add-data");
-           
+            document.getElementById("fio").classList.add('add-data');
+            console.log(document.getElementById('fio').classList);
         }else{
             document.querySelector("#fio").classList.remove("add-data");
+            //console.log("gyuihj");
         }
         if(email==""){
             document.querySelector("#email").classList.add("add-data");
