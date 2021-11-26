@@ -90,10 +90,15 @@ textarea{
 }
 input{
     /* margin-top: 10px; */
-    color: white; 
+    color: black; 
     /* margin-right: 10px; */
     z-index: 100;
     
+}
+.add-data{
+    /* border: 2px solid red; */
+    /* color: red; */
+    background-color: rgb(189, 165, 165);
 }
 .write-us_form_right{
     /* display: flex;
