@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Домашняя страница</title>
+	<title>index.php</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>

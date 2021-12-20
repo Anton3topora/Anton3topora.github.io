@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Резюме';
+    $title = 'resume.php';
     $css = 'resume.css';
     $js='resume.js';
 ?>

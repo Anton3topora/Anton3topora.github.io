@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Портфолио';
+    $title = 'portfolio.php';
     $css = 'portfolio.css';
     $js='portfolio.js';
 ?>

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Регистрация</title>
+  <title>register.php</title>
 </head>
 <body>
   <div class="header">

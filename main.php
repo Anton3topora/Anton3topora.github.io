@@ -1,5 +1,5 @@
 <?php 
-    $title = 'О себе';
+    $title = 'main.php';
     $css = 'index.css';
 ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/parts/header.php');?>

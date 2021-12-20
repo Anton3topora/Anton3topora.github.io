@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Задания';
+    $title = 'zadanija.php';
     $css = 'zadanija.css';
     $js='zadanija.js';
 ?>

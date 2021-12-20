@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Регистрация</title>
+    <title>login.php</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>

@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Контакты';
+    $title = 'contacts.php';
     $css = 'contacts.css';
     $js='contacts.js';
     include($_SERVER['DOCUMENT_ROOT'].'/parts/header.php');
