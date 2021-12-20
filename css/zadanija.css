@@ -1,0 +1,79 @@
+.mgn{
+    height: 150px;
+    /* margin-top: 150px; */
+    /* width: 100%; */
+}
+.zadanija{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.zadanije{
+    color: white;
+    max-width: 200px;
+    min-width: 100px;
+    /* height: 40px; */
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(132, 120, 148);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    
+    display: grid;
+    grid-template-areas: 
+    "post-1 post-1 post-2 post-7"  
+    "post-1 post-1 post-3 post-7"  
+    "post-4 post-5 post-5 post-7"
+    "post-6 post-8 post-9 post-7"; 
+    position: relative;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 600px;
+    height: 500px;
+    background-color: beige;
+    margin: auto;
+}
+.grid{
+    margin: 10px;
+    border: 1px solid black;
+}
+.post-1{
+    grid-row: 1/3;
+    grid-column: 1/3;
+    background: center center / cover no-repeat url("https://tehnot.com/wp-content/uploads/2017/03/android-o-00.jpg");
+}
+.post-2{
+    background: center center / cover no-repeat url("https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg");
+}
+.post-3{
+    background: center center / cover no-repeat url("https://prikolnye-kartinki.ru/img/picture/Oct/08/81c41cca31756877c9a3ed12a9fdc77d/1.jpg");
+}
+.post-4{
+    background: center center / cover no-repeat url("https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg");
+}
+.post-5{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background: center center / cover no-repeat url("https://pristor.ru/wp-content/uploads/2021/06/%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%A3%D1%80%D0%B0-%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0-%D0%BE%D1%82%D0%BF%D1%83%D1%81%D0%BA-%D1%81-%D0%BD%D0%B0%D0%B4%D0%BF%D0%B8%D1%81%D1%8F%D0%BC%D0%B8-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BA%D0%B8-10.jpg");
+}
+.post-6{
+    background: center center / cover no-repeat url("https://im0-tub-ru.yandex.net/i?id=3371c45886ba7b9626277725061c98c9-l&n=27&h=384&w=480");
+}
+.post-7{
+    grid-column: 4/5;
+    grid-row: 1/5;
+    background: center center / cover no-repeat url("http://fotorelax.ru/wp-content/uploads/2016/02/Beautiful-photos-and-pictures-on-different-topics-01.jpg");
+}
+.post-8{
+    background: center center / cover no-repeat url("https://imagename2.ru/imgbig/imagename_ru_18998.jpg");
+}
+.post-9{
+    background: center center / cover no-repeat url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXii-J97gh7dd_VnL0sBZvHT5cy3GOeOVYDg&usqp=CAU");
+}

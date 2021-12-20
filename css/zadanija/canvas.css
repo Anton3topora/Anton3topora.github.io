@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.backet{
+    width: 100px;
+    height: 100px;
+    background: center center/cover no-repeat url("https://postium.ru/wp-content/uploads/2018/08/idealnaya-korzina-internet-magazina-696x464.jpg");
+
+}
+.shop{
+    display: flex;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.item{
+    margin-bottom: 20px;
+}
